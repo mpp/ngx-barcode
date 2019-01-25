@@ -1,11 +1,11 @@
 {
   "name": "ngx-barcode",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "An angular component for Angular 4+ for creating 1-D barcodes based on Lindell's JsBarcode",
   "homepage": "https://yobryon.github.io/ngx-barcode",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yobryon/ngx-barcode"
+    "url": "https://github.com/mpp/ngx-barcode"
   },
   "author": {
     "name": "Bryon Williams",
@@ -18,16 +18,14 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yobryon/ngx-barcode/issues"
+    "url": "https://github.com/mpp/ngx-barcode/issues"
   },
   "main": "index.js",
   "typings": "ngx-barcode.d.ts",
   "peerDependencies": {
-    "@angular/core": "^4.0.0",
-    "rxjs": "^5.1.0",
-    "zone.js": "^0.8.4"
+    "@angular/core": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
   },
   "dependencies": {
-    "jsbarcode": "^3.6.0"
+    "jsbarcode": "^3.11.0"
   }
 }

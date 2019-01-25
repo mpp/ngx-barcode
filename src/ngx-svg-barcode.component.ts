@@ -12,14 +12,14 @@ declare var require: any;
 let jsbarcode = require("jsbarcode");
 
 @Component({
-  selector: "ngx-barcode",
+  selector: "[ngx-svg-barcode]",
   template: `
-    <div #bcElement [class]="cssClass"></div>
+    <svg:g #bcElement></svg:g>
   `,
   styles: []
 })
-export class NgxBarcodeComponent implements OnChanges {
-  @Input("bc-element-type") elementType: "svg" | "img" | "canvas" = "svg";
+export class NgxSVGBarcodeComponent implements OnChanges {
+  elementType = "svg";
   @Input("bc-class") cssClass = "barcode"; // this should be done more elegantly
 
   @Input("bc-format") format:

@@ -1,6 +1,6 @@
 {
   "name": "ngx-barcode",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yobryon/ngx-barcode"
+    "url": "https://github.com/mpp/ngx-barcode"
   },
   "author": {
     "name": "Bryon Williams",
@@ -20,13 +20,13 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yobryon/ngx-barcode/issues"
+    "url": "https://github.com/mpp/ngx-barcode/issues"
   },
   "devDependencies": {
     "@angular/common": "^4.2.4",
     "@angular/compiler": "^4.2.4",
     "@angular/compiler-cli": "^4.2.4",
-    "@angular/core": "^4.2.4",
+    "@angular/core": "^4.0.0",
     "@angular/platform-browser": "^4.2.4",
     "@angular/platform-browser-dynamic": "^4.2.4",
     "@types/jasmine": "^2.5.53",
