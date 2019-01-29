@@ -20,8 +20,8 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
-    "flatModuleOutFile": "@panotec/ngx-barcode.js",
-    "flatModuleId": "@panotec/ngx-barcode"
+    "flatModuleOutFile": "ngx-barcode.js",
+    "flatModuleId": "ngx-barcode"
   },
   "files": ["./index.ts"]
 }
