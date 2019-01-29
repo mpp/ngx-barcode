@@ -21,7 +21,7 @@
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "flatModuleOutFile": "ngx-barcode.js",
-    "flatModuleId": "ngx-barcode"
+    "flatModuleId": "@panotec/ngx-barcode"
   },
   "files": ["./index.ts"]
 }
