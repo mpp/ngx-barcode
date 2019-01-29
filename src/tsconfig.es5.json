@@ -11,10 +11,7 @@
     "moduleResolution": "node",
     "outDir": "../build",
     "rootDir": ".",
-    "lib": [
-      "es2015",
-      "dom"
-    ],
+    "lib": ["es2015", "dom"],
     "skipLibCheck": true,
     // Don't auto-discover @types/node, it results in a ///<reference in the .d.ts output
     "types": []
@@ -23,10 +20,8 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
-    "flatModuleOutFile": "ngx-barcode.js",
-    "flatModuleId": "ngx-barcode"
+    "flatModuleOutFile": "@panotec/ngx-barcode.js",
+    "flatModuleId": "@panotec/ngx-barcode"
   },
-  "files": [
-    "./index.ts"
-  ]
+  "files": ["./index.ts"]
 }
