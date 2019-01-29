@@ -1,5 +1,5 @@
 {
-  "name": "ngx-barcode",
+  "name": "@panotec/ngx-barcode",
   "version": "0.2.5",
   "description": "An angular component for Angular 4+ for creating 1-D barcodes based on Lindell's JsBarcode",
   "homepage": "https://yobryon.github.io/ngx-barcode",
@@ -21,7 +21,7 @@
     "url": "https://github.com/mpp/ngx-barcode/issues"
   },
   "main": "index.js",
-  "typings": "ngx-barcode.d.ts",
+  "typings": "@panotec/ngx-barcode.d.ts",
   "peerDependencies": {
     "@angular/core": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
   },
