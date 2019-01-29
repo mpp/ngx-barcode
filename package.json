@@ -1,5 +1,5 @@
 {
-  "name": "ngx-barcode",
+  "name": "@panotec/ngx-barcode",
   "version": "0.2.5",
   "scripts": {
     "build": "gulp build",
