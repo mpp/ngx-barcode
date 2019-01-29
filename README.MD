@@ -1,3 +1,15 @@
+# Edit SVG
+You can use the cloned component like this:
+```xml
+<svg>
+  <svg:g
+    ngx-svg-barcode
+    bc-value="key"
+    [bc-display-value]="true"
+  ></svg:g>
+</svg>
+```
+
 <div align="center">
   <img src="https://cdn.rawgit.com/yobryon/ngx-barcode/master/docs/assets/ngx-barcode.svg" width="200px" alt="ngx-barcode">
   <h1 align="center">ngx-barcode</h1>
